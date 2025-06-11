@@ -1,4 +1,5 @@
 *.xml
+*.mrc
 ./base/*.txt
 ./logs/*.log
 ./txt/*.txt
