@@ -1,0 +1,8 @@
+cd /usr/share/koha/bin/migration_tools
+export PERL5LIB="/usr/share/koha/lib/"
+export KOHA_CONF="/etc/koha/sites/bibliofadu/koha-conf.xml"
+
+Ahi estan las utilidades.
+
+Esto es para importar los archivos MARC21
+sudo koha-shell -c "/usr/share/koha/bin/migration_tools/bulkmarcimport.pl -framework XXX -file archivo.mrc -dedupbarcode" bibliofadu

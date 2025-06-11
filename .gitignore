@@ -1,0 +1,4 @@
+*.xml
+./base/*.txt
+./logs/*.log
+./txt/*.txt
